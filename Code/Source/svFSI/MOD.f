@@ -51,7 +51,7 @@
 !     master is assumed to have zero ID, version, maximum number of
 !     properties, License expiration date
       INTEGER, PARAMETER :: maxnsd = 3, version = 8, maxNProp = 30,
-     3   expDate(3)=(/2020,1,1/)
+     3   expDate(3)=(/2025,1,1/)
 
 !     Gauss points and their corresponding weights, upto 5 points
       REAL(KIND=8), PARAMETER :: gW(5,5)=RESHAPE((/2D0,0D0,0D0,0D0,0D0,
