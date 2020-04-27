@@ -154,6 +154,7 @@
          !IF (tArray(1).GE.expDate(1) .AND. tArray(2).GE.expDate(2)
      2   !   .AND. tArray(3).GE.expDate(3)) err = "License is expired"
 
+
          IF (cm%seq() .AND. cm%nT().EQ.1) THEN
             std = " Running sequentially"
          ELSE
